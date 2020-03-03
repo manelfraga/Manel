@@ -9,8 +9,14 @@ public class Rectangulo extends Figura {
     }
 
 
+    @Override
     public double area() {
         return (altura*base);
+    }
+
+    @Override
+    public int compareTo(Figura o) {
+        return 0;
     }
 }
 

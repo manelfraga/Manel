@@ -7,7 +7,13 @@ public class Círculo extends Figura {
     }
 
 
+    @Override
     public double area() {
-        return Math.Pi * radio * radio;
+        return Math.PI * radio * radio;
+    }
+
+    @Override
+    public int compareTo(Figura o) {
+        return 0;
     }
 }

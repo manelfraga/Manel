@@ -8,8 +8,13 @@ public class Triángulo extends Figura {
         this.altura=a;
     }
 
-    @java.lang.Override
+    @Override
     public double area() {
+        return (base * altura * 0.5);
+    }
+
+    @Override
+    public int compareTo(Figura o) {
         return 0;
     }
 }
