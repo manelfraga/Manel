@@ -1,7 +1,7 @@
-public class Círculo extends Figura {
+public class Circulo extends Figura {
     private double radio;
 
-    public Círculo (double r)
+    public Circulo (double r)
     {
         this.radio=r;
     }

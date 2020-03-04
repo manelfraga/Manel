@@ -1,8 +1,8 @@
-public class Triángulo extends Figura {
+public class Triangulo extends Figura {
     private double base;
     private double altura;
 
-    public Triángulo (double b, double a)
+    public Triangulo (double b, double a)
     {
         this.base=b;
         this.altura=a;
@@ -17,4 +17,6 @@ public class Triángulo extends Figura {
     public int compareTo(Figura o) {
         return 0;
     }
+
+
 }

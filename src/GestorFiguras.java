@@ -1,15 +1,17 @@
-public class GestorFiguras {
-    private static GestorFiguras Arrays;
+import java.util.Arrays;
 
-    public static double Suma (Figura[] figura){
+public class GestorFiguras {
+
+    public double Suma (Figura[] figura){
         int i=0;
         double AreaTotal=0;
         while(i<figura.length) {
             AreaTotal = AreaTotal + figura[i].area();
+            i++;
         }
         return AreaTotal;
     }
-    public static void sort (Figura[] figura){
+    public void sort (Figura[] figura){
         Arrays.sort(figura);
     }
 }
