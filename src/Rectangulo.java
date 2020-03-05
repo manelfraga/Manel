@@ -16,7 +16,7 @@ public class Rectangulo extends Figura {
 
     @Override
     public int compareTo(Figura o) {
-        return 0;
+        return super.compareTo(o);
     }
 }
 
